@@ -24,7 +24,7 @@ class Alumno:
     notas = [
         materia.nota for materia in self.materias
         # for materia in self.materias:
-        #     materia.nota
+        #     materia.nota 
     ]
     nota_maxima = max(notas)
     for materia in self.materias:

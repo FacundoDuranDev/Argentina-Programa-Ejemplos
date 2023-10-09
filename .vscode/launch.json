@@ -9,8 +9,9 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true
+            "console": "integratedTerminal",// podemos definir ambientes de ejecución
+            "justMyCode": true,
+            
         }
     ]
 }

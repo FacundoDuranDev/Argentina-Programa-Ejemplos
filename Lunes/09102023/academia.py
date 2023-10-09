@@ -24,5 +24,6 @@ lista_materias_2 = [
 ]
 alumno1 = Alumno("Facundo", "Duran", 24, 1, lista_materias_1)
 alumno2 = Alumno("Camila","Perez", 26, 2, lista_materias_2)
+print(alumno2.mejor_materia())
 academia1 = Academico("UBA", [alumno1, alumno2])
 print(academia1.alumnos_graduados(4))
