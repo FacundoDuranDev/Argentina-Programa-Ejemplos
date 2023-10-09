@@ -23,6 +23,8 @@ class Alumno:
   def mejor_materia(self):
     notas = [
         materia.nota for materia in self.materias
+        # for materia in self.materias:
+        #     materia.nota
     ]
     nota_maxima = max(notas)
     for materia in self.materias:
