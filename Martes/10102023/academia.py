@@ -1,7 +1,8 @@
 from classes.Academia.Academico import Academico
 from classes.Academia.Materia import Materia
 from classes.Academia.Alumno import Alumno
-
+# from => desde => le vamos a pasar la localización de nuestro archivo
+# en este caso /classes/Academia/nombreArchivo import NombreClase
 lista_materias_1 = [
     Materia("Historia",2021, 7),
     Materia("Matemáticas", 2021, 5),
