@@ -11,6 +11,7 @@
             "program": "${file}",
             "console": "integratedTerminal",// podemos definir ambientes de ejecución
             "justMyCode": true,
+            "args": ["10"]
         }
     ]
 }
